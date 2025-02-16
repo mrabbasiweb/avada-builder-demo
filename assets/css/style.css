@@ -1,0 +1,191 @@
+
+main {
+    >footer {
+        >div {
+            >div {
+                >a {
+                    color: black;
+                    &:hover {
+                        color: blueviolet;
+                    }
+
+                }
+            }
+        }
+    }
+    font-family: "Playfair Display", serif;
+    >header {
+        width: 100%;
+        height: 20vh;
+        background-color: rgb(245 249 244);
+    }
+
+    >.aval {
+        padding-top: 100px;
+        /* height: 100vh; */
+        background-color: rgb(245 249 244);
+
+        >div {
+            padding-bottom: 100px;
+        }
+    }
+
+    >.dovom {
+        background-image: url(../img/banner-30-scaled.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+
+        >div {
+            >div {
+                >.mohtava {
+                    height: 450px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    padding: 50px 50px;
+
+                    
+                    >div {
+                        >p {
+                            color: white;
+                        }
+    
+                        >h3 {
+                            color: white;
+                        }
+                        >div {
+
+                            >p {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    >.sevom {
+        width: 100%;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .khatatii {
+        padding-right: 275px;
+    }
+    >.chahar {
+        background-color: rgb(245 249 244);
+    }
+    .heeee {
+        height: 450px;
+    }
+    >.panjom {
+        background-image: url(../img/banner-3-scaled.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        >div {
+            >div {
+                >.mohtava {
+                    height: 450px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    padding: 50px 50px;
+
+                }
+        }
+    }
+}
+    >.sheshom {
+        background-color: rgb(78 109 67);
+        /* height: 120vh; */
+    }
+    >.haftom {
+        background-color: rgb(245 249 244);
+        .bas {
+            background-image: url(../img/banner-19-scaled.jpg);
+            height: 70vh;
+            background-position: center;
+            background-size: cover;
+        }
+        .paddi {
+            padding-top: 100px;
+        }
+    }
+ 
+}
+
+@media screen and (max-width: 992px) {
+    .hhhoo {
+        display: none;
+    }
+    .bugg {
+        position: absolute;
+    }
+    .buggg {
+        position: absolute;
+        right: 0;
+        /* top: 0; */
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .khatati {
+        /* padding-left: 275px; */
+    }
+    .khatatii {
+        padding-right: 100px;
+
+        >h1 {
+            font-size: 55px;
+        }
+    }
+    .akss {
+        margin-top: 100px;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .sevom {
+        >div {
+            margin-top: 50px;
+            margin-left: 15px;
+        }
+    }
+    .bugg {
+        position: absolute;
+        right: 0;
+        top: 60px;
+        z-index: 2;
+    }
+    .buggg {
+        position: absolute;
+        left: 0;
+        /* top: 0; */
+    }
+
+}
+@media screen and (max-width: 992px) {
+    .bugg {
+        position: absolute;
+        right: 0;
+        top: 60px;
+        z-index: 2;
+    }
+    .buggg {
+        position: absolute;
+        left: 0;
+        /* top: 0; */
+    }
+
+}
+@media screen and (max-width:768px) {
+    .sheshom {
+        padding-bottom: 50px;
+    }
+
+    
+}
